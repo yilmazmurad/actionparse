@@ -44,7 +44,7 @@ npm install actionparse
 npm install zod
 ```
 
-> Henüz npm'de yayınlanmadı — o zamana kadar GitHub'dan kurun: `npm install github:yilmazmurad/actionparse`
+> Henüz npm'de yayınlanmadı — o zamana kadar GitHub'dan kurun: `npm install github:yilmazmurad/actionparse` (`prepare` script `dist/` klasörünü otomatik derler)
 
 ## Kullanım
 

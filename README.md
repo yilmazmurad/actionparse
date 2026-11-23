@@ -44,7 +44,7 @@ npm install actionparse
 npm install zod
 ```
 
-> Not yet published to npm — until then install from GitHub: `npm install github:yilmazmurad/actionparse`
+> Not yet published to npm — until then install from GitHub: `npm install github:yilmazmurad/actionparse` (the `prepare` script builds `dist/` automatically)
 
 ## Usage
 

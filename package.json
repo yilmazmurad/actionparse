@@ -1,6 +1,6 @@
 {
   "name": "actionparse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parse FormData into typed, nested objects and validate them with any Standard Schema validator (Zod, Valibot, ArkType). Built for React 19 form actions and useActionState.",
   "type": "module",
   "license": "MIT",
@@ -48,7 +48,8 @@
     "lint": "eslint .",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "check": "npm run typecheck && npm run lint && npm test && npm run build"
+    "check": "npm run typecheck && npm run lint && npm test && npm run build",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
